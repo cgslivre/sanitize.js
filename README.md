@@ -28,6 +28,6 @@ console.log(Sanitize(myStr));
 console.log(myStr.sanitize('_'));
 // >> this_is_an_test_case
 
-var title = document.querySelect('#input_text_title').value;
+var title = document.querySelector('#input_text_title').value;
 var mySlug = title.sanitize('-');
 ```
